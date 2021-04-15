@@ -1,4 +1,6 @@
-One file has hard coded changes compared to original, api.py.
+One file has hard coded changes compared to original, api.py in core_stable/pywikibot/data/.
+
+Also of course in core_stable/user-config.py .
 
 Command to run is in command.sh, one level down.
 
