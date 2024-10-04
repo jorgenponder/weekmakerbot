@@ -1,0 +1,51 @@
+pages = [
+{
+'id':'2021v33', 'body': '''
+
+
+{{Veckainfobox
+|namn           = {{PAGENAME}}
+|veckonummer    = 33
+|år             = 2021
+|föregående_vecka     = [[]]
+|nästa_vecka          = [[2021v34]]
+}}
+
+{{#cargo_query:
+tables=codosak
+|fields=codosak.datum, codosak._pageName, codosak.etiketter
+|where=datum <= "2021-08-22" AND datum >= "2021-08-16"
+|order by=codosak.datum ASC
+}}
+
+
+{{NavboxVecka}}
+
+[[Kategori:2021]]
+[[Kategori:vecka]]
+'''},
+{
+'id':'2021v34', 'body': '''
+
+
+{{Veckainfobox
+|namn           = {{PAGENAME}}
+|veckonummer    = 34
+|år             = 2021
+|föregående_vecka     = [[2021v33]]
+|nästa_vecka          = [[2021v35]]
+}}
+
+{{#cargo_query:
+tables=codosak
+|fields=codosak.datum, codosak._pageName, codosak.etiketter
+|where=datum <= "2021-08-29" AND datum >= "2021-08-23"
+|order by=codosak.datum ASC
+}}
+
+
+{{NavboxVecka}}
+
+[[Kategori:2021]]
+[[Kategori:vecka]]
+'''},]
