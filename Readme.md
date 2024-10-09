@@ -12,7 +12,21 @@ Install:
 
 A file ```pages.py``` should contain a list of dictionaries of the pages (week templates) to upload. See ```pages.py.example``` for an example of the format. It contains a list of two dictionaries, i.e. of two pages.
 
-Change the credentials in templatesuploader.py to fit the site's settings. 
+Change the credentials in templatesuploader.py to fit the site's settings.
+
+Here is an excerpt of the code with the relevant things to change:
+
+    sleep_seconds = 6 # Time to sleep between pages uploaded
+    site_address = 'site.without.schema' # No schema (https://) in the site url
+    api_path = '/w/' # Adjust the path to where the API is.
+    bot_name = ''
+    bot_password = ''
+
+# Run #
+
+Run:
+
+    python templatesuploader.py
 
 # History #
 
