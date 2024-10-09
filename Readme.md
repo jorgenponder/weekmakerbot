@@ -1,8 +1,6 @@
 # Purpose #
 
-Also of course in core_stable/user-config.py .
-
-Command to run is in command.sh, one level down.
+To upload week templates to a mediawiki site for pages that are stored in the cargo system. But it should work with any pages you want to upload, cargo or not.
 
 # Install #
 
